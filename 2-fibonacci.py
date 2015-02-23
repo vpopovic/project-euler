@@ -10,13 +10,13 @@ not exceed four million, find the sum of the even-valued terms.
 fibseq = 4000000
 evensum = 0
 
-a,b = 0,1
+a, b = 0, 1
 
 for d in range(fibseq - 2):
-	c = a + b
-	a, b = b, c
-	if (c % 2 == 0):
-		evensum += c
-		if (c >= fibseq):
-			print c
-			break
+    c = a + b
+    a, b = b, c
+    if (c % 2 == 0):
+        evensum += c
+        if (evensum >= fibseq):
+            print evensum
+            break
