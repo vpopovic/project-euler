@@ -18,5 +18,5 @@ for d in range(fibseq - 2):
     if (c % 2 == 0):
         evensum += c
         if (evensum >= fibseq):
-            print evensum
+            print(evensum)
             break

@@ -11,4 +11,4 @@ for num in range(1, 1000):
         sum += num
     elif num % 5 == 0:
         sum += num
-print sum
+print(sum)
